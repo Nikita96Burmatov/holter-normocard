@@ -1,0 +1,213 @@
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, "Helvetica-Neue", Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.parallax{
+    position:relative;
+    height:100%;
+}
+
+
+.parallax_glass{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax_logo{
+    background: url('/src/img/logo.png')  15% no-repeat;
+}
+
+.parallax_glass_1{
+
+    background: url('/src/img/background1.jpeg') 0 0/ cover no-repeat;
+}
+
+.parallax_glass_2{
+    background: url('/src/img/Glass\ 1.png') bottom right /15% no-repeat;
+}
+
+.parallax_glass_3{
+    background: url('/src/img/Glass\ 3.png') left bottom /15% no-repeat;
+}
+
+.parallax_glass_4{
+    background:url('/src/img/Glass\ 4.png') left top /15% no-repeat;
+}
+
+.parallax_glass_6{
+    background:url('/src/img/Glass\ 5.png') top right /15% no-repeat;
+}
+.parallax_glass_7{
+    background:url('/src/img/Glass\ 6.png') left center /15% no-repeat;
+}
+.parallax_glass_8{
+    background:url('/src/img/Glass\ 7.png') bottom center /15% no-repeat;
+}
+.parallax_glass_9{
+    background:url('/src/img/Glass\ 8.png') top center /15% no-repeat;
+}
+.parallax_glass_10{
+    background:url('/src/img/Glass\ 9.png') right center /15% no-repeat;
+}
+.parallax_glass_11{
+    background:url('/src/img/Glass\ 10.png') center 15% no-repeat;
+}
+.parallax_glass_12{
+    top: -300px;
+    left: -100px;
+    background:url('/src/img/Glass\ 11.png') 15% no-repeat;
+}
+.parallax_glass_13{
+    top: -300px;
+    left: -300px;
+    background:url('/src/img/Glass\ 12.png') 15% no-repeat;
+}
+.parallax_glass_14{
+    top: -300px;
+    left: -70px;
+    background:url('/src/img/Glass\ 13.png') 15% no-repeat;
+}
+.parallax_glass_15{
+    top: -300px;
+    left: 1250px;
+    background:url('/src/img/Glass\ 14.png') 15% no-repeat;
+}
+
+.parallax_glass_16{
+    z-index: 1;
+    top: -300px;
+    left: 1250px;
+    background:url('/src/img/Glass\ 15.png') 15% no-repeat;
+}
+.parallax_glass_17{
+    z-index: 1;
+    top: 300px;
+    left: 1250px;
+    background:url('/src/img/Glass\ 16.png') 15% no-repeat;
+}
+.parallax_glass_18{
+    z-index: 1;
+    top: 500px;
+    left: 1250px;
+    background:url('/src/img/Glass\ 17.png') 15% no-repeat;
+}
+.parallax_glass_19{
+    z-index: 1;
+    top: -400px;
+    left: 1250px;
+    background:url('/src/img/Glass\ 18.png') 15% no-repeat;
+}
+.parallax_glass_20{
+    z-index: 1;
+    top: -450px;
+    left: 1110px;
+    background:url('/src/img/Glass\ 19.png') 15% no-repeat;
+}
+.parallax_glass_21{
+    z-index: 2;
+    top: -50px;
+    left: -150px;
+    background:url('/src/img/Glass\ 20.png') 15% no-repeat;
+    position: fixed;
+}
+.parallax_glass_22{
+    z-index: 2;
+    top: -2px;
+    left: 250px;
+    background:url('/src/img/Glass\ 21.png') 15% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_23{
+    z-index: 2;
+    top: 150px;
+    left: 750px;
+    background:url('/src/img/Glass\ 22.png') 15% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_24{
+    z-index: 2;
+    top: -70px;
+    left: 960px;
+    background:url('/src/img/Glass\ 23.png') 15% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_25{
+    z-index: 2;
+    background:url('/src/img/Glass\ 24.png') top center / 25% no-repeat;
+    position: fixed;
+}
+.parallax_glass_26{
+    left: 150px;
+    background:url('/src/img/Vector\ 13.png')  25% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_27{
+    left: 150px;
+    background:url('/src/img/Glass\ 25.png')  25% no-repeat;
+}
+
+.parallax_edge{
+    z-index: 2;
+    background:url('/src/img/egde.png') 0 0/cover no-repeat;
+}
+
+.parallax_glass_28{
+    top: -300px;
+    left: 350px;
+    background:url('/src/img/Glass\ 36.png') 25% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_29{
+    top: -70px;
+    left: -350px;
+    background:url('/src/img/Glass\ 31.png') 25% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_30{
+    top: 110px;
+    left: 250px;
+    background:url('/src/img/Glass\ 35.png') 25% no-repeat;
+    position: fixed;
+}
+
+.parallax_glass_31{
+    top: -70px;
+    left: 750px;
+    background:url('/src/img/Glass\ 37.png') 25% no-repeat;
+    position: fixed;
+}
